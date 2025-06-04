@@ -1,0 +1,13 @@
+[
+    {
+        "action": "executeVSCodeCommand",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "action": "executeVSCodeCommand",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "action": "unsetPresentationView"
+    }
+]

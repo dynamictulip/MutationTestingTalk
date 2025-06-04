@@ -1,0 +1,102 @@
+{
+  "$schema": "https://demotime.elio.dev/demo-time.schema.json",
+  "title": "Mutation Test talk",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "title": "Start",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "demo-time.showPresenterView"
+        }
+      ],
+      "icons": {
+        "start": "run",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Intro slides",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/01-intro.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Code coverage",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-code.json"
+        },
+        {
+          "action": "highlight",
+          "path": "code/UnitTest1.cs",
+          "position": 14
+        }
+      ],
+      "notes": {
+        "path": ".demo/notes.md"
+      },
+      "icons": {
+        "start": "output-view-icon",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "End",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/99-end.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Reset",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-code.json"
+        },
+        {
+          "action": "closeAll"
+        }
+      ],
+      "icons": {
+        "start": "close",
+        "end": "pass-filled"
+      }
+    },
+  ]
+}
