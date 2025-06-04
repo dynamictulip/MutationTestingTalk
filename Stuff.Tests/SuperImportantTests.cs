@@ -15,4 +15,12 @@ public class SuperImportantTests
 
         Assert.Equal(4, actual);
     }
+
+    [Fact]
+    public void Test_IsGmailAddress()
+    {
+        var actual = SuperImportant.IsGmailAddress("me@gmail.com");
+
+        Assert.True(actual);
+    }
 }
