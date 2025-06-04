@@ -8,6 +8,9 @@
       "title": "Start",
       "steps": [
         {
+          "action": "closeAll"
+        },
+        {
           "action": "executeVSCodeCommand",
           "command": "demo-time.showPresenterView"
         }
@@ -27,11 +30,11 @@
         },
         {
           "action": "openSlide",
-          "path": ".demo/slides/01-intro.md"
+          "path": ".demo/slides/s-01-intro.md"
         }
       ],
       "notes": {
-        "path": ".demo/notes.md"
+        "path": ".demo/notes/n-01-intro.md"
       },
       "icons": {
         "start": "vm",
@@ -39,7 +42,7 @@
       }
     },
     {
-      "title": "Code coverage",
+      "title": "Free look around",
       "description": "",
       "steps": [
         {
@@ -47,13 +50,38 @@
           "contentPath": ".demo/snippets/prep-for-code.json"
         },
         {
-          "action": "highlight",
-          "path": "code/UnitTest1.cs",
-          "position": 14
+          "action": "executeVSCodeCommand",
+          "command": "solutionExplorer.focus"
         }
       ],
       "notes": {
-        "path": ".demo/notes.md"
+        "path": ".demo/notes/n-02.md"
+      }
+    },
+    {
+      "title": "Limitations of code coverage",
+      "description": "",
+      "steps": [
+        {
+          "action": "executeVSCodeCommand",
+          "command": "workbench.view.testing.focus"
+        }
+      ]
+    },
+    {
+      "title": "Add more tests to satisfy code coverage",
+      "description": "",
+      "steps": [
+        {
+          "action": "insert",
+          "path": "Stuff.Tests/SuperImportantTests.cs",
+          "position": 18,
+          "contentPath": ".demo/stuff/IsLessThanFortyTwo",
+          "lineInsertionDelay": 100
+        }
+      ],
+      "notes": {
+        "path": ".demo/notes/n-03.md"
       },
       "icons": {
         "start": "output-view-icon",
@@ -74,7 +102,7 @@
         }
       ],
       "notes": {
-        "path": ".demo/notes.md"
+        "path": ".demo/notes/n-99-end.md"
       },
       "icons": {
         "start": "vm",
@@ -97,6 +125,6 @@
         "start": "close",
         "end": "pass-filled"
       }
-    },
+    }
   ]
 }
