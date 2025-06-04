@@ -21,7 +21,7 @@
       }
     },
     {
-      "title": "Intro slides",
+      "title": "Intro - Title",
       "description": "",
       "steps": [
         {
@@ -30,11 +30,11 @@
         },
         {
           "action": "openSlide",
-          "path": ".demo/slides/s-01-intro.md"
+          "path": ".demo/00-Start/slides.md"
         }
       ],
       "notes": {
-        "path": ".demo/notes/n-01-intro.md"
+        "path": ".demo/000-Start/notes.md"
       },
       "icons": {
         "start": "vm",
@@ -42,7 +42,24 @@
       }
     },
     {
-      "title": "Free look around",
+      "title": "Intro - Disclaimer",
+      "description": "",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/01-Intro/slides.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/01-Intro/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Code Coverage - Browse code and tests",
       "description": "",
       "steps": [
         {
@@ -55,33 +72,36 @@
         }
       ],
       "notes": {
-        "path": ".demo/notes/n-02.md"
+        "path": ".demo/02-Code-Coverage/notes.md"
       }
     },
     {
-      "title": "Limitations of code coverage",
+      "title": "Code Coverage - Run tests and coverage",
       "description": "",
       "steps": [
         {
           "action": "executeVSCodeCommand",
           "command": "workbench.view.testing.focus"
         }
-      ]
+      ],
+      "notes": {
+        "path": ".demo/02-Code-Coverage/notes.md"
+      }
     },
     {
-      "title": "Add more tests to satisfy code coverage",
+      "title": "Code Coverage - Add more tests to satisfy code coverage",
       "description": "",
       "steps": [
         {
           "action": "insert",
           "path": "Stuff.Tests/SuperImportantTests.cs",
           "position": 18,
-          "contentPath": ".demo/stuff/IsLessThanFortyTwo",
+          "contentPath": ".demo/02-Code-Coverage/IsLessThanFortyTwo",
           "lineInsertionDelay": 100
         }
       ],
       "notes": {
-        "path": ".demo/notes/n-03.md"
+        "path": ".demo/02-Code-Coverage/notes.md"
       },
       "icons": {
         "start": "output-view-icon",
@@ -98,11 +118,11 @@
         },
         {
           "action": "openSlide",
-          "path": ".demo/slides/99-end.md"
+          "path": ".demo/99-end/slides.md"
         }
       ],
       "notes": {
-        "path": ".demo/notes/n-99-end.md"
+        "path": ".demo/99-end/notes.md"
       },
       "icons": {
         "start": "vm",
