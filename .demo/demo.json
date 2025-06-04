@@ -69,6 +69,10 @@
         {
           "action": "executeVSCodeCommand",
           "command": "solutionExplorer.focus"
+        },
+        {
+          "action": "open",
+          "path": "Stuff/SuperImportant.cs"
         }
       ],
       "notes": {
