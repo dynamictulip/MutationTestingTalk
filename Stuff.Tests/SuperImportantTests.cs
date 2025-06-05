@@ -23,4 +23,10 @@ public class SuperImportantTests
 
         Assert.True(actual);
     }
+
+    [Fact]
+    public void Test_IsGmailAddress_fails()
+    {
+        SuperImportant.IsGmailAddress("me@yahoo.com");
+    }
 }
