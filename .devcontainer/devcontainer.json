@@ -21,7 +21,8 @@
 			"extensions": [
 				"eliostruyf.vscode-demo-time",
 				"davidanson.vscode-markdownlint",
-				"ms-dotnettools.csdevkit"
+				"ms-dotnettools.csdevkit",
+				"ms-vscode.live-server"
 			]
 		}
 	},
