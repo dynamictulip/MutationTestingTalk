@@ -34,7 +34,7 @@
         }
       ],
       "notes": {
-        "path": ".demo/000-Start/notes.md"
+        "path": ".demo/00-Start/notes.md"
       },
       "icons": {
         "start": "vm",

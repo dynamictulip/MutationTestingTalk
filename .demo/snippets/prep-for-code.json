@@ -1,8 +1,5 @@
 [
     {
-        "action": "close"
-    },
-    {
         "action": "unsetPresentationView"
     },
     {
