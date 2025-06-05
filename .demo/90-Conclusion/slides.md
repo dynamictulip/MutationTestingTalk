@@ -12,7 +12,7 @@ layout: default
 
 # But it can help
 
-- Give you more trust in your tests
+- Give you more trust in your system
 - Highlight scenarios that you haven't thought about
 - Show redundant code
 - Train you to write better tests

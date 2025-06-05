@@ -10,8 +10,8 @@ Click to make demo time open this - https://stryker-mutator.io/docs/stryker-net/
 - Don't forget to look at the regexes
 
 - Different mutants can be enabled via config
-- Lets run our mutation tool again, this time with an "Advanced" level turned on
 
-# Mutation types - Change the level of our mutants
+# Next - Mutation testing in the wild
 
---mutation-level "Advanced"
+- Polly .NET resilience library
+- Find information about academies and trusts
