@@ -59,7 +59,7 @@
       }
     },
     {
-      "title": "Code Coverage - Browse code and tests",
+      "title": "Code Coverage - Browse code and run tests no coverage",
       "description": "",
       "steps": [
         {
@@ -80,9 +80,34 @@
       }
     },
     {
-      "title": "Code Coverage - Run tests and coverage",
+      "title": "Code Coverage - What is code coverage",
       "description": "",
       "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/02-Code-Coverage/slides.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/02-Code-Coverage/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Code Coverage - Run tests with coverage",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-code.json"
+        },
         {
           "action": "executeVSCodeCommand",
           "command": "workbench.view.testing.focus"
@@ -106,10 +131,50 @@
       ],
       "notes": {
         "path": ".demo/02-Code-Coverage/notes.md"
+      }
+    },
+    {
+      "title": "Mutation - Intro to concept",
+      "description": "",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/03-Mutation/slides.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/03-Mutation/notes.md"
       },
       "icons": {
-        "start": "output-view-icon",
+        "start": "vm",
         "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Mutation - Run mutation tests",
+      "description": "",
+      "steps": [
+        {
+          "action": "executeTerminalCommand",
+          "command": "dotnet stryker"
+        }
+      ],
+      "notes": {
+        "path": ".demo/03-Mutation/notes.md"
+      }
+    },
+    {
+      "title": "Mutation - Open stryker report",
+      "description": "",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "http://127.0.0.1:3000/{DT_CLIPBOARD}",
+          "openInVSCode": true
+        }
+      ],
+      "notes": {
+        "path": ".demo/03-Mutation/notes.md"
       }
     },
     {

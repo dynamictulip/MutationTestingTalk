@@ -1,6 +1,6 @@
-# Disclaimer
+# 1 - Disclaimer
 
-- This talk contains .NET code (and it is not good .NET code!)
-- Mutation testing isn't just for .NET
+- Don't judge me on the code!
+- There are mutation tools available for many languages (or if you have a sudden passion for mutation testing and tons of spare time you could always roll your own!)
 
-# But first... let's talk about ordinary testing
+# 2 - But first... let's talk about code

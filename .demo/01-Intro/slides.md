@@ -1,7 +1,16 @@
 ---
 theme: frost
 layout: default
-transition: slideRight
+---
+
+# Disclaimer
+
+---
+
+# Disclaimer
+
+- This talk contains .NET code (and it is not good .NET code!)
+
 ---
 
 # Disclaimer
@@ -11,4 +20,4 @@ transition: slideRight
 
 ---
 
-# But first... let's talk about ordinary testing
+# But first... let's talk about code
