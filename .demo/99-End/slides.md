@@ -1,9 +1,10 @@
 ---
 theme: frost
 layout: intro
-transition: slideRight
 ---
 
-# This is the end
+# Try 👾 one of your projects
 
-Well done
+## It might surprise you!
+
+Thanks for listening!

@@ -178,6 +178,48 @@
       }
     },
     {
+      "title": "Types of mutatant",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/50-Mutation-Types/slides.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/50-Mutation-Types/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Conclusion",
+      "description": "",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/90-Conclusion/slides.md"
+        }
+      ],
+      "notes": {
+        "path": ".demo/90-Conclusion/notes.md"
+      },
+      "icons": {
+        "start": "vm",
+        "end": "pass-filled"
+      }
+    },
+    {
       "title": "End",
       "description": "",
       "steps": [
