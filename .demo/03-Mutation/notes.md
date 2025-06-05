@@ -31,3 +31,5 @@ Copy `StrykerOutput/2025-06-05.09-59-56/reports/mutation-report.html` part of th
 
 - Drill into the layers and show the mutations
 - Show killed mutations too
+
+- note that it missed the addition bug
