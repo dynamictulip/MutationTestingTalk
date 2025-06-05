@@ -217,31 +217,15 @@
       }
     },
     {
-      "title": "Types of mutant - Advanced mutation tests",
-      "description": "",
-      "steps": [
-        {
-          "action": "executeTerminalCommand",
-          "command": "dotnet stryker --mutation-level \"Advanced\""
-        }
-      ],
-      "notes": {
-        "path": ".demo/50-Mutation-Types/notes.md"
-      }
-    },
-    {
-      "title": "Types of mutant - Open Advanced stryker report",
+      "title": "FIAT - example in wild",
       "description": "",
       "steps": [
         {
           "action": "openWebsite",
-          "url": "http://127.0.0.1:3000/{DT_CLIPBOARD}",
+          "url": "http://127.0.0.1:3000/FIAT/mutation-report.html",
           "openInVSCode": true
         }
-      ],
-      "notes": {
-        "path": ".demo/50-Mutation-Types/notes.md"
-      }
+      ]
     },
     {
       "title": "Conclusion",
