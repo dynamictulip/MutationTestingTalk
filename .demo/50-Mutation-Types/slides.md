@@ -1,11 +1,8 @@
 ---
 theme: frost
-layout: default
+layout: section
 ---
 
-# Examples of mutants
-
-
+# Types of mutants
 
 ---
-

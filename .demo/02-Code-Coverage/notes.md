@@ -10,7 +10,8 @@
 - Lets make sure that they pass
 - [_Run tests to see them pass_]
 - They all pass! Yay this must be good code!
-- "But what about code coverage?" I hear you say?
+- But are they good tests? Can I trust them?
+- One way of checking is though Code coverage
 
 ## 2 - What is code coverage
 

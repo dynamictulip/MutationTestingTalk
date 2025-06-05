@@ -126,7 +126,7 @@
           "path": "Stuff.Tests/SuperImportantTests.cs",
           "position": 18,
           "contentPath": ".demo/02-Code-Coverage/IsLessThanFortyTwo",
-          "lineInsertionDelay": 100
+          "lineInsertionDelay": 200
         }
       ],
       "notes": {
@@ -137,6 +137,10 @@
       "title": "Mutation - Intro to concept",
       "description": "",
       "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/snippets/prep-for-slideshow.json"
+        },
         {
           "action": "openSlide",
           "path": ".demo/03-Mutation/slides.md"
@@ -178,7 +182,7 @@
       }
     },
     {
-      "title": "Types of mutatant",
+      "title": "Types of mutant",
       "description": "",
       "steps": [
         {
@@ -196,6 +200,47 @@
       "icons": {
         "start": "vm",
         "end": "pass-filled"
+      }
+    },
+    {
+      "title": "Types of mutant - look at Stryker docs",
+      "description": "",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "https://stryker-mutator.io/docs/stryker-net/mutations/",
+          "openInVSCode": true
+        }
+      ],
+      "notes": {
+        "path": ".demo/50-Mutation-Types/notes.md"
+      }
+    },
+    {
+      "title": "Types of mutant - Advanced mutation tests",
+      "description": "",
+      "steps": [
+        {
+          "action": "executeTerminalCommand",
+          "command": "dotnet stryker --mutation-level \"Advanced\""
+        }
+      ],
+      "notes": {
+        "path": ".demo/50-Mutation-Types/notes.md"
+      }
+    },
+    {
+      "title": "Types of mutant - Open Advanced stryker report",
+      "description": "",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "http://127.0.0.1:3000/{DT_CLIPBOARD}",
+          "openInVSCode": true
+        }
+      ],
+      "notes": {
+        "path": ".demo/50-Mutation-Types/notes.md"
       }
     },
     {

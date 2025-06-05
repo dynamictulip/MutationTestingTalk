@@ -20,4 +20,4 @@ layout: default
 
 ---
 
-# But first... let's talk about code
+# Let's talk about code
